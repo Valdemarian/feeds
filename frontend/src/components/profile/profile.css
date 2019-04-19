@@ -1,0 +1,9 @@
+.profile{
+	background-color: #75A0C5 !important;	
+}
+
+.btn-profile:hover{
+	background-color: #00BC8C;
+	border-color: #00BC8C;
+	box-shadow: 0 0px 3px rgba(0,0,0,0.5);
+}

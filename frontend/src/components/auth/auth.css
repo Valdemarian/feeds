@@ -1,0 +1,40 @@
+.auth{
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.logbtn{
+	width: 60px;
+	margin-top: 0;
+	margin-right: 0;
+	background-color: #4A76A8;
+	border-color: #4A76A8;
+}
+
+@media (min-width: 768px){
+	.logbtn{
+		width: 80px;
+	}
+
+	.auth{
+		justify-content: flex-end;
+	}
+}
+
+.logbtn:hover {
+	background-color: #00BC8C;
+	border-color: #00BC8C;
+	box-shadow: 0 0px 3px rgba(0,0,0,0.5);
+}
+
+.auth-name{
+	margin-top: 15px;
+	margin-right: 15px;
+	color: #4A76A8;
+}
+
+.name-container{
+	width: 40%;
+	display: block;
+}
