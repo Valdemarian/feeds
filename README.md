@@ -5,4 +5,5 @@
 
 Авторизированный Google аккаунт:
 davidrotcher@gmail.com
+пароль
 Qwerty1234567890
