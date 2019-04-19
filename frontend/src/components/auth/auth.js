@@ -22,7 +22,7 @@ class Auth extends Component {
     window.gapi.load('auth2', function() {//обьект window делает переменную глобальной
       window.gapi.auth2
         .init({ // не забудьте указать ваш ключ в .env
-          client_id: process.env.REACT_APP_GOOGLE_CLIENT_ID,
+          client_id: '611659595716-gukm240un1t62fc010ect0flja91hl6d.apps.googleusercontent.com',
         })
         .then(_onInit, _onError)
     })
